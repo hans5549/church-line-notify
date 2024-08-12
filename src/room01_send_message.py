@@ -11,7 +11,7 @@ def load_config(file_path):
 
 def main():
     data = get_sheet_data()
-    message = 'google sheet data: ' + data
+    message = 'google sheet data: ' + str(data)
 
     send_line_notify(message)
 
